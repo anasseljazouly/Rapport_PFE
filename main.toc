@@ -1,0 +1,75 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{Dédicaces}{II}{chapter*.1}%
+\contentsline {chapter}{Remerciement}{III}{chapter*.2}%
+\contentsline {chapter}{Résumé}{IV}{chapter*.3}%
+\contentsline {chapter}{Abstract}{V}{chapter*.4}%
+\contentsline {chapter}{Introduction générale}{1}{chapter*.8}%
+\contentsline {chapter}{\numberline {1}Contexte général du projet}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Présentation de l’organisme d’accueil}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Le groupe Société générale}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Société générale African Business Services}{5}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Fiche signalétique}{5}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Organigramme de la Société générale ABS}{7}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Présentation de la Digital Factory}{8}{subsection.1.2.5}%
+\contentsline {section}{\numberline {1.3}Présentation du contexte du projet }{10}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Contexte du projet}{10}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Problématique}{10}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Besoins et objectifs}{11}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Conduite du projet}{12}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Méthodologie de travail : SCRUM}{12}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Cycle de vie du projet}{14}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Planification du projet}{14}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Outils de gestion de projet}{15}{subsection.1.4.4}%
+\contentsline {section}{\numberline {1.5}Conclusion}{17}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Étude détaillée du projet}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{19}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Analyse de l'existant}{19}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Étude de l'existant}{19}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Limitations de l'existant}{21}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Analyse et identification des besoins}{21}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Besoins fonctionnels}{21}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Besoins non fonctionnels}{22}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Diagramme de cas d'utilisation}{23}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Conclusion}{25}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Conception détaillée du système}{26}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Architecture logique d'UNIBANK}{27}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Architecture technique d'UNIBANK}{28}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Technique d'Authentification/Authorisation}{31}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Connecteurs externes}{32}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Architecture Monorepo de la partie Front-end}{33}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Approche Multitenant}{35}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Feature Flagging}{36}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Diagramme de classes}{36}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Diagrammes de séquences}{37}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Scénario de consultation des cartes}{37}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Scénario de consultation des produits}{39}{subsection.3.10.2}%
+\contentsline {subsection}{\numberline {3.10.3}Scénario de souscription à un produit}{40}{subsection.3.10.3}%
+\contentsline {section}{\numberline {3.11}Conclusion}{40}{section.3.11}%
+\contentsline {chapter}{\numberline {4}Réalisation et mise en oeuvre}{42}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Outils et technologies}{43}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Outils de Conception}{43}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Outils de Développement }{44}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Outils de documentation}{48}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Outils de Test}{49}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Outils de Gestion de Version}{50}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Outils de DevOps}{50}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Outils de Routage}{52}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Outils de Monitoring}{52}{subsection.4.2.8}%
+\contentsline {section}{\numberline {4.3}Interfaces}{52}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Accueil}{53}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Changement de langue}{56}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Mes Cartes}{57}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Plafonds des cartes}{63}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Mes Produits}{68}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Téléchargement du récapitulatif}{71}{subsection.4.3.6}%
+\contentsline {section}{\numberline {4.4}Environnements de déploiement}{74}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Qualification}{74}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Tests end to end}{74}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Tests fonctionnels}{75}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Tests de non regression}{75}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Perspectives}{75}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Conclusion}{76}{section.4.7}%
+\contentsline {chapter}{Conclusion générale}{76}{section.4.7}%

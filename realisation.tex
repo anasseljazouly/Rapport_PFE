@@ -1,0 +1,364 @@
+\chapter{Réalisation}
+Ce chapitre est consacré à la présentation de l’environnement logiciel utilisé pour le développement de la solution proposée, avec une explication éventuelle aux choix techniques relatifs aux langages de programmation et des outils utilisés.
+\newpage
+\section{Outils}
+\subsection{Next.js}
+Next.js est un framework gratuit et open source s'appuyant sur la bibliothèque JavaScript ReactJs et sur la technologie NodeJs.
+
+Le framework permet de créer des applications web universelles ou parfois appelées isomorphiques.Il prend en charge les techniques de rendu des pages web côté serveur (SSR : Server Side Rendering), le rendu statique de pages web (SSG: Static Site Generation). Il prend également en charge la génération hybride de pages web et/ou incrémentale des pages (ISR: Incremental Static Generation).
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=4cm]{images/logos/Nextjs-logo.svg.png}
+\end{center}
+%légende de l'image
+\caption{Logo NextJs}
+\end{figure}
+
+\subsection{React Query}
+React Query est souvent décrit comme la bibliothèque de récupération de données manquante pour React. Pourtant, en termes plus techniques, il facilite la récupération, la mise en cache, la synchronisation et la mise à jour de l’état du serveur dans vos applications React. Il fournit un Hook pour récupérer, mettre en cache et mettre à jour des données asynchrones dans React sans toucher à un « état global » comme Redux. Au départ, cela ressemble à une simple bibliothèque; Cependant, il est doté de fonctionnalités complexes qui gèrent la plupart des problèmes de gestion de l’état du serveur que vous pourriez avoir dans une application.\cite{reactQuery}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=4cm]{images/logos/reactQuery.png}
+\end{center}
+%légende de l'image
+\caption{Logo React Query }
+\end{figure}
+
+\subsection{TailwindCSS}
+TailwindCSS est un framework CSS open source. La principale caractéristique de cette bibliothèque est que, contrairement à d’autres frameworks CSS comme Bootstrap, elle ne fournit pas une série de classes prédéfinies pour des éléments tels que des boutons ou des tables. Au lieu de cela, il crée une liste de classes CSS « utilitaires » qui peuvent être utilisées pour styliser chaque élément en mélangeant et en faisant correspondre. \cite{tailwindCSS}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=4cm]{images/logos/Tailwind_CSS_Logo.svg.png}
+\end{center}
+%légende de l'image
+\caption{Logo TailwindCSS }
+\end{figure}
+
+
+\subsection{Figma}
+Figma est une application Web collaborative pour la conception d’interfaces, avec des fonctionnalités hors ligne supplémentaires activées par les applications de bureau pour macOS et Windows. L’ensemble des fonctionnalités de Figma se concentre sur l’interface utilisateur et la conception de l’expérience utilisateur, en mettant l’accent sur la collaboration en temps réel, en utilisant une variété d’éditeurs de graphiques vectoriels et d’outils de prototypage. \cite{figma}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=4cm]{images/logos/figma-1-logo-png-transparent.png}
+\end{center}
+%légende de l'image
+\caption{Logo Figma }
+\end{figure}
+
+
+\subsection{LaTeX}
+Les documents professionnels nécessitent un logiciel de traitement, Latex est l'outil parfait pour cette tâche. Il était donc inévitable de travailler avec ce dernier.\\
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=3cm]{images/logos/latex.png}
+\end{center}
+%légende de l'image
+\caption{Logo du LaTeX }
+\end{figure}
+
+\subsection{Visual Studio}
+Visual Studio Code est un éditeur de code extensible développé par Microsoft pour Windows, Linux et macOS. Les fonctionnalités incluent la prise en charge du débogage, la mise en évidence de la syntaxe, la complétion intelligente du code, les snippets, la refactorisation du code et Git intégré. Les utilisateurs peuvent modifier le thème, les raccourcis clavier, les préférences et installer des extensions qui ajoutent des fonctionnalités supplémentaires. \\
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=4cm]{images/logos/vsc.jpeg}
+\end{center}
+%légende de l'image
+\caption{Logo de Vs code}
+\end{figure}
+
+
+\subsection{GitLab}
+GitLab est un logiciel libre de forge basé sur git proposant les fonctionnalités de wiki, un
+système de suivi des bugs, l’intégration continue et la livraison continue. Développé par GitLabInc et créé par Dmitriy Zaporozhets et par Valery Sizov, le logiciel est utilisé par plusieurs grandes entreprises informatiques, dont IBM, Sony, le centre de recherche de Jülich, la NASA,Alibaba, Oracle, Invincea, O’Reilly Media, Leibniz Rechenzentrum, le CERN3,4,5, European XFEL, la GNOME Foundation, Boeing... \cite{gitLab} \\
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=4cm]{images/logos/GitLab_logo.svg.png}
+\end{center}
+%légende de l'image
+\caption{Logo de GitLab}
+\end{figure}
+
+\section{Présentation du design}
+La partie design est la partie primordiale dans la réalisation du site web.Les internautes apprécient en effet la fiabilité d'un site à son design. Par son esthétique et sa fonctionnalité, le design influence la perception que le visiteur a de votre entreprise et peut par conséquent impacter votre réussite commerciale.\\
+Nous avons bien choisi la palette utilisée pour que le design du site web soit coherent avec le logo ainsi que le domaine du site web.
+
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=16cm]{images/design/figma.PNG}
+\end{center}
+%légende de l'image
+\caption{Vue globale du Desgin}
+\end{figure}
+
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=16cm]{images/design/figma2.PNG}
+\end{center}
+%légende de l'image
+\caption{vue particulière du Design}
+\end{figure}
+
+\newpage
+
+
+\section{Présentation des interfaces}
+Au cours du stage et après la phases de conception, la modélisation fonctionnelle et organisationnelle, nous avons développé les différentes interfaces de notre site web, telle qu’affichée dans le diagramme de Gantt. Nous présentons dans cette section des scénarios d’utilisation illustrés par des interfaces graphiques relatives aux differents types d'utilisateur.
+
+\subsection{Interfaces d'un utilisateur visiteur}
+Nous avons plusieurs pages dans le site web, celle principale est la page home. C'est la première page qui acceuillit le visiteur.
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=8cm, height=16cm]{images/screens/home.png}
+\end{center}
+%légende de l'image
+\caption{La page Home}
+\end{figure}
+\newpage
+
+D'aprés la barre du navigation, le visiteur peut accéder à plusieurs pages.
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=12cm]{images/screens/navbar.PNG}
+\end{center}
+%légende de l'image
+\caption{La barre de Navigation}
+\end{figure}
+
+\newpage
+La page NewsRoom contient les Nouveautés de l'école Ibnghazi, où l'utilisateur peut cliquer sur "Lire Plus" afin de consulter l'article lié à la nouveauté.
+\begin{figure}[h]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=8cm, height=15cm]{images/screens/newsRoom.png}
+        \caption{La page NewsRoom}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=8cm,height=15cm]{images/screens/article.png}
+        \caption{Article d'une nouveauté}
+    \end{minipage}
+\end{figure}
+\newpage
+
+La page Futurs Etudiants permet à l'utilisateur de canditater pour l'école.
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=8cm, height=10cm]{images/screens/futursEtudiants.png}
+\end{center}
+%légende de l'image
+\caption{La page Futurs Etudiants}
+\end{figure}
+
+En complétant un formulaire de 3 étapes :
+\begin{figure}[h]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=8cm, height=5.5cm]{images/screens/form1.PNG}
+        \caption{Etape 1 du formulaire canditater}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=8cm, height=5.5cm]{images/screens/form2.png}
+        \caption{Etape 2 du formulaire canditater}
+    \end{minipage}
+\end{figure}
+\newpage
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=8cm, height=10cm]{images/screens/form3.png}
+\end{center}
+%légende de l'image
+\caption{Etape 3 du formulaire canditater}
+\end{figure}
+
+La page Nos Campus permet à l'utilisateur de localiser les différents campus de l'école Ibnghazi situés dans différentes villes.
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=8cm, height=10cm]{images/screens/NosCampus.png}
+\end{center}
+%légende de l'image
+\caption{La page Nos Campus}
+\end{figure}
+\newpage
+
+La page Evenements informe l'utilisateur sur les evenements organisé dans l'école.
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=8cm, height=8cm]{images/screens/evenements.png}
+\end{center}
+%légende de l'image
+\caption{La page Evenement}
+\end{figure}
+\newline
+On peut savoir plus sur l'evenement juste en cliquant sur ce dernier.
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=8cm, height=11cm]{images/screens/evenement2.png}
+\end{center}
+%légende de l'image
+\caption{Plus de détail sur un evenement}
+\end{figure}
+\newline
+
+La barre Nos CPGE contient trois pages :
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=4cm, height=3cm]{images/screens/nosCpge.png}
+\end{center}
+%légende de l'image
+\caption{La barre Nos CPGE}
+\end{figure}
+
+\begin{figure}[h]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=8cm,height=12cm]{images/screens/structurePedagogique.png}
+        \caption{La page Structure pédagogique}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=8cm,height=12cm]{images/screens/nosresultats.png}
+        \caption{La page Nos résultat}
+    \end{minipage}
+\end{figure}
+\newpage
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=8cm, height=14cm]{images/screens/5demi.png}
+\end{center}
+%légende de l'image
+\caption{La page 5/2 à IBNGHAZI}
+\end{figure}
+\newpage
+
+La page A propos de nous présente en bref l'école IBNGHAZI et son historique.
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=8cm, height=13cm]{images/screens/aProposDeNous.png}
+\end{center}
+%légende de l'image
+\caption{La page A propos de nous}
+\end{figure}
+\newpage
+
+La barre Nos programmes présente les programmes proposés par l'école Ibnghazi et contient trois pages suivant chaque option :
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=4cm, height=3cm]{images/screens/NosProgramme.png}
+\end{center}
+%légende de l'image
+\caption{La barre Nos programmes}
+\end{figure}
+
+\begin{figure}[h]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=8cm,height=12.5cm]{images/screens/ecs.png}
+        \caption{La page Prépas commerciales}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=8cm,height=12.5cm]{images/screens/mp.png}
+        \caption{La page Prépas scientifiques}
+    \end{minipage}
+\end{figure}
+\newpage
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=8cm, height=8cm]{images/screens/internationaux.png}
+\end{center}
+%légende de l'image
+\caption{La page Etudier à l'international}
+\end{figure}
+
+La page Porte ouverte présente les programmes d'inscription liants à un formulaire d'inscription.
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=8cm, height=10cm]{images/screens/porteOuverte.png}
+\end{center}
+%légende de l'image
+\caption{La page Portes ouvertes}
+\end{figure}
+\newpage
+
+La page Nous contacter contient un formulaire afin de contacter l'école.
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=8cm, height=10cm]{images/screens/NousContacter.png}
+\end{center}
+%légende de l'image
+\caption{La page Nous contacter}
+\end{figure}
+
+\subsection{Interfaces d'un admin}
+Afin d'accéder à l'interface admin, une authentification est nécessaire.
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=7cm, height=8cm]{images/screens/login.png}
+\end{center}
+%légende de l'image
+\caption{Authentification de l'Admin}
+\end{figure}
+\newpage
+
+Apés l'authentification,un dashboard s'affiche et permet à l'admin de contrôller le contenu du site web , gérer les admins et leurs rôles ainsi que les formulaires existants dans le site web.
+\begin{figure}[h]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=8cm,height=9cm]{images/screens/dashboard.png}
+        \caption{Dashboard de l'admin}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=8cm,height=9cm]{images/screens/modifPAge.PNG}
+        \caption{Modification du contenu d'une page}
+    \end{minipage}
+\end{figure}
+\begin{figure}[h]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=8cm,height=6cm]{images/screens/admins.png}
+        \caption{Gestion des admins}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=8cm,height=6cm]{images/screens/forms.png}
+        \caption{Les formulaires des pages}
+    \end{minipage}
+\end{figure}
+\begin{figure}[!h]  
+\begin{center}
+\includegraphics[width=8cm, height=6cm]{images/screens/formAdmin.png}
+\end{center}
+%légende de l'image
+\caption{Exemple des résultats d'un formulaire}
+\end{figure}
+\newline
+
+\subsection{Conclusion}
+Dans ce chapitre, nous avons présenté l’environnement et le processus de développement, puis la structure générale de la partie front-end du site web. Nous avons exposé ainsi le résultat de développement à l’aide des aperçus d’écrans. Finalement nous avons clôturé par les
+apports de ce projet.
+
+
+
+\addcontentsline{toc}{chapter}{Conclusion et perspectives}
+\chapter*{Conclusion et perspectives}
+Le présent rapport, a présenté les différentes étapes de mon projet de stage d'été en deuxième année qui porte sur la conception et la réalisation du Frontend d'un site web de l'école IBNGHAZI.\\
+
+Le site web est développé avec NextJs, elle offre de multiples services et fonctionnalités qui aident les utilisateurs de savoir toutes les informations sur l'école et de canditater pour cet école.\\
+
+Pendant notre stage, il a été convenu de suivre les bonnes pratiques pour bien mener ce projet. Ainsi, nous avons adopté le processus de développement Scrum afin de tracer la feuille de route du projet. Ensuite, un dossier de spécifications fonctionnelles a été établi. Enfin, une conception détaillée a été mise en place en vue de passer aux phases de production, de déploiement et de test. Durant la période réservée au projet, la mise en œuvre des principales fonctionnalités du site web est réalisée avec succés, englobant toutes les
+fonctionnalités et les services souhaitées par le client. En guise de perspectives il serait intéressant de développer autres modules telle que l’éducation online, pour que ce site devient une vraie platforme académique.\\
+
+
+
